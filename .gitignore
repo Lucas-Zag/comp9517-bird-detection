@@ -1,0 +1,26 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# macOS
+.DS_Store
+
+# Local configuration
+.env
+.env.*
+
+# Dataset
+/data/
+
+# Experiments and checkpoints
+/runs/
+/weights/
+/outputs/
+*.pt
+*.pth
+*.onnx
+
+# Notebooks
+.ipynb_checkpoints/
