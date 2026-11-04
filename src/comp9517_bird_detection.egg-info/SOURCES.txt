@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+src/bird_detection/__init__.py
+src/bird_detection/data/__init__.py
+src/bird_detection/evaluation/__init__.py
+src/bird_detection/evaluation/error_analysis.py
+src/bird_detection/evaluation/iou.py
+src/bird_detection/models/__init__.py
+src/bird_detection/models/base.py
+src/bird_detection/models/factory.py
+src/bird_detection/models/rtdetr.py
+src/bird_detection/models/yolo.py
+src/comp9517_bird_detection.egg-info/PKG-INFO
+src/comp9517_bird_detection.egg-info/SOURCES.txt
+src/comp9517_bird_detection.egg-info/dependency_links.txt
+src/comp9517_bird_detection.egg-info/top_level.txt

@@ -1,0 +1,40 @@
+
+# E03-B RT-DETR-L Stable Fine-tuning
+
+model: rtdetr-l.pt
+data: data/beach_bird.yaml
+
+epochs: 35
+patience: 0
+
+imgsz: 640
+batch: 2
+nbs: 64
+
+device: mps
+workers: 0
+amp: false
+
+optimizer: AdamW
+lr0: 0.0005
+lrf: 0.1
+cos_lr: true
+momentum: 0.9
+weight_decay: 0.0005
+
+warmup_epochs: 3
+warmup_bias_lr: 0.0
+
+mosaic: 0.5
+close_mosaic: 25
+scale: 0.3
+mixup: 0.0
+
+seed: 42
+deterministic: false
+
+plots: true
+save: true
+project: runs/train
+name: rtdetr_l_stable_v1
+exist_ok: false

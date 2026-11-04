@@ -1,0 +1,26 @@
+# E03 — RT-DETR-L Baseline
+
+# Model and dataset
+model: rtdetr-l.pt
+data: data/beach_bird.yaml
+
+# Training parameters
+epochs: 50
+imgsz: 640
+batch: 2
+device: mps
+workers: 0
+
+# Reproducibility
+seed: 42
+deterministic: false
+
+# Training control
+patience: 15
+plots: true
+save: true
+
+# Experiment tracking
+project: runs/train
+name: rtdetr_l_baseline_v1
+exist_ok: false

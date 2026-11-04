@@ -1,0 +1,5 @@
+Metadata-Version: 2.4
+Name: comp9517-bird-detection
+Version: 0.1.0
+Summary: COMP9517 Beach Bird Detection Project
+Requires-Python: >=3.11

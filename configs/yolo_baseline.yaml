@@ -1,0 +1,25 @@
+# YOLO Baseline Configuration
+
+model: yolo11n.pt
+data: data/beach_bird.yaml
+
+# Training
+epochs: 50
+imgsz: 640
+batch: 4
+device: mps
+workers: 0
+
+# Reproducibility
+seed: 42
+deterministic: false
+
+# Validation and logging
+patience: 15
+plots: true
+save: true
+
+# Experiment
+project: runs/train
+name: yolo11n_baseline_v1
+exist_ok: false
